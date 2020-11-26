@@ -3,7 +3,7 @@ package bot;
 import java.util.Scanner;
 
 public class SimpleBot {
-    final static Scanner scanner = new Scanner(System.in); 
+    final static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         greet("Aid", "2020");
@@ -11,7 +11,7 @@ public class SimpleBot {
         guessAge();
         count();
         test();
-        // ...
+        
         end();
     }
 
